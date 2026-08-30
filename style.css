@@ -142,7 +142,7 @@ a {
 .quote{
     display : flex;
     flex-direction: column;
-    padding : 300px;
+    padding : 200px;
     background-color: #E5E7EB;
     gap : 5px;
 
@@ -178,7 +178,10 @@ a {
     justify-content: space-between;
     border-radius: 8px;
     background-color: #3882F6;
-    padding : 72px;
+    padding-right : 120px;
+    padding-left : 120px;
+    padding-top : 72px;
+    padding-bottom : 72px;
 }
 
 .section-four-content .left .title {
@@ -200,8 +203,12 @@ a {
     border : 2px solid white;
     background-color: #3882F6;
     color: white;
+    
 
 
+}
+.section-four-content .right {
+    margin-top: auto;
 }
 
 .footer {
