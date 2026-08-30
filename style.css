@@ -36,6 +36,8 @@ ul {
 }
 
 
+
+
 a {
     text-decoration: none;
 }
@@ -103,7 +105,7 @@ a {
     margin-bottom : 52px;
 }
 
-.title {
+.section-two .title {
     margin : 16px 0 16px 0;
     display: flex;
     justify-content: center;
@@ -153,5 +155,65 @@ a {
     list-style-type: "-";
     font-weight:700;
 }
+
+
+.section-four {
+    padding: 120px;
+    margin: 0 auto;
+}
+
+.section-four-content {
+    display: flex;
+    box-sizing: border-box;
+    width : 900px;
+    justify-content: space-between;
+    border-radius: 8px;
+    background-color: #3882F6;
+    padding : 72px;
+}
+
+.section-four-content .left .title {
+    font-family: "Roboto";
+    font-size : 18px;
+    font-weight: 900;
+    color: white;
+
+}
+
+.section-four-content .left .paragraph {
+    font-weight: 300;
+    color: white;
+}
+
+.section-four-content .right button {
+    border-radius: 8px;
+    padding : 5px 20px 5px 20px;
+    border : 2px solid white;
+    background-color: #3882F6;
+    color: white;
+
+
+}
+
+.footer {
+    
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding : 50px;
+    
+
+
+}
+
+
+.footer .text {
+    color: white;
+    font-weight: 300;
+    
+}
+
+
+
 
 
