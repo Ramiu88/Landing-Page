@@ -1,1 +1,1 @@
-# Landing-Page
+This is a basic web landing page using HTML and CSS(Flexbox).
